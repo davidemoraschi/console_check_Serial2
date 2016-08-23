@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "console_check_Serial2", "console_check_Serial2\console_check_Serial2.vcxproj", "{E5075089-CC19-4FCE-B7A3-2C2969DC7691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5075089-CC19-4FCE-B7A3-2C2969DC7691}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E5075089-CC19-4FCE-B7A3-2C2969DC7691}.Debug|Win32.Build.0 = Debug|Win32
+		{E5075089-CC19-4FCE-B7A3-2C2969DC7691}.Release|Win32.ActiveCfg = Release|Win32
+		{E5075089-CC19-4FCE-B7A3-2C2969DC7691}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

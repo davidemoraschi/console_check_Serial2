@@ -1,0 +1,22 @@
+﻿Build started 18/04/2012 21:42:40.
+     1>Project "C:\develop\console_check_Serial2\console_check_Serial2\console_check_Serial2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\console_check_Serial2.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\console_check_Serial2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt console_check_Serial2.cpp
+         console_check_Serial2.cpp
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Archivos de programa\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\develop\console_check_Serial2\Debug\console_check_Serial2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\console_check_Serial2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\develop\console_check_Serial2\Debug\console_check_Serial2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\develop\console_check_Serial2\Debug\console_check_Serial2.lib" /MACHINE:X86 Debug\console_check_Serial2.exe.embed.manifest.res
+         Debug\console_check_Serial2.obj
+         Debug\stdafx.obj
+     1>console_check_Serial2.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall Serial::~Serial(void)" (??1Serial@@UAE@XZ) referenced in function _wmain
+     1>console_check_Serial2.obj : error LNK2019: unresolved external symbol "public: __thiscall Serial::Serial(class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,int)" (??0Serial@@QAE@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@H@Z) referenced in function _wmain
+     1>C:\develop\console_check_Serial2\Debug\console_check_Serial2.exe : fatal error LNK1120: 2 unresolved externals
+     1>Done Building Project "C:\develop\console_check_Serial2\console_check_Serial2\console_check_Serial2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.80
